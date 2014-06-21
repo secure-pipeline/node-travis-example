@@ -9,7 +9,7 @@ before_script:
   - pushd vendor/nodegoat
   - npm install
   - mongo < nodegoat_db_reset.js
-  - grunt run
+  - grunt run &
   - popd
 services:
   - mongodb
