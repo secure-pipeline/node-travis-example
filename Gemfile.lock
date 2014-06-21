@@ -5,7 +5,7 @@ GEM
     clamp (0.6.3)
     colorize (0.7.3)
     mime-types (2.3)
-    owasp_zap (0.0.84)
+    owasp_zap (0.0.5)
       addressable
       rest-client
     rest-client (1.6.7)
@@ -21,4 +21,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  owasp_zap (= 0.0.5)
   zapr (= 0.1.0)
