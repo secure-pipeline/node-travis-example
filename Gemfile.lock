@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    clamp (0.6.3)
+    colorize (0.7.3)
+    mime-types (2.3)
+    owasp_zap (0.0.84)
+      addressable
+      rest-client
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    terminal-table (1.4.5)
+    zapr (0.1.1)
+      clamp
+      colorize
+      owasp_zap
+      terminal-table
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  zapr

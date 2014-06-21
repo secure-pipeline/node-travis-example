@@ -1,0 +1,3 @@
+[submodule "vendor/nodegoat"]
+	path = vendor/nodegoat
+	url = git://github.com/OWASP/NodeGoat.git
