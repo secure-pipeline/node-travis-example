@@ -14,4 +14,4 @@ before_script:
 services:
   - mongodb
 script:
-  - bundle exec zapr --summary --debug --zap-path $TRAVIS_BUILD_DIR/ZAP_2.3.1/zap.sh http://localhost:5000/
+  - bundle exec zapr --summary --timeout=300 --debug --zap-path $TRAVIS_BUILD_DIR/ZAP_2.3.1/zap.sh http://localhost:5000/
