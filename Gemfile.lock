@@ -11,7 +11,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     terminal-table (1.4.5)
-    zapr (0.1.1)
+    zapr (0.1.0)
       clamp
       colorize
       owasp_zap
@@ -21,4 +21,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  zapr
+  zapr (= 0.1.0)
