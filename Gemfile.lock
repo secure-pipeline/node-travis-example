@@ -82,7 +82,7 @@ GEM
     trollop (2.0)
     typhoeus (0.3.3)
       mime-types
-    zapr (0.1.2)
+    zapr (0.1.3)
       clamp
       colorize
       owasp_zap (= 0.0.5)
@@ -95,4 +95,4 @@ DEPENDENCIES
   arachni
   foreman
   gauntlt
-  zapr (= 0.1.2)
+  zapr (= 0.1.3)
