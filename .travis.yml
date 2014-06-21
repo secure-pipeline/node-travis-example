@@ -10,7 +10,8 @@ before_script:
   - npm install
   - mongo < nodegoat_db_reset.js
   - sed -i 's/\/\/db/db/g' config/env/development.js
-  - grunt nodemon
+  - foreman start &
+  - sleep 3
   - popd
 services:
   - mongodb
